@@ -2,39 +2,88 @@
 <html>
 
 <head>
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+    
+<link rel=stylesheet type="text/css" href="css_framework">
+ 
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- for drowndrop menu :))) -->
+    
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     
 </head>
 
 <body>
 <!-- Navigation-->
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav>
-    
+  <div>
+		<ul class="navigation" role="navigation">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Design</a></li>
+			<li><a href="#">Artists</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+
 <!-- Parallax-->   
-<h1> </h1>
-<p> </p>
+<div class="fluid_container">
+<div class="parallax">
+<div id="group1" class="parallax_group">
+<div class="parallax_layer parallax_layer_back">
+<img class="main_image" src="images/DeathtoStock_Wired3_Fotor.jpg">
+    
+        </div>
+   </div><!-- end of group1-->    
+   <div class="parallax_group">
+    <div class="parallax_layer parallax_layer_base">
+     <div class="jumbotron" style="text-align:center; color:rgb(18,20,21);">  
+      <h1>Bootstrap</h1>
+      <h3>Loaded from the <span class="glyphicon glyphicon-cloud" style="position:relative !important; top:5px;"></span> cloud right here on Codepen</h3>    
+     </div><!--end of jumbotron -->
+
+        </div></div></div></div>
 
 <!-- Description-->
 
     
 <!-- Design products: Carousel-->
-
+<div class="row parallax_group">
+    <div class="col-md-12 parallax_layer parallax_base_layer">
+      <div class="carousel carousel-showmanymoveone slide" id="carousel123">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/0054A6/fff/&amp;text=1" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002d5a/fff/&amp;text=2" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/d6d6d6/333&amp;text=3" class="img-responsive"></a></div>
+          </div>          
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002040/eeeeee&amp;text=4" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/0054A6/fff/&amp;text=5" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002d5a/fff/&amp;text=6" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/eeeeee&amp;text=7" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/40a1ff/002040&amp;text=8" class="img-responsive"></a></div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel123" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#carousel123" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
     
 <!-- The Artists: Bootstrap Grid--> 
 
